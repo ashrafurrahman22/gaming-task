@@ -68,6 +68,7 @@
     align-items: center;
     flex-direction: column;
     }
+
     .join-btn {
         height: 44px;
         width: 148px;
@@ -84,16 +85,39 @@ nav {
 }
 
 .searchOpt {
-    font-size: 20px;
+    font-size: 30px;
     height: 30px;
     border-radius: 5px;
 }
 
 .links {
+    padding: 4px;
     font-family: Saira;
-    font-size: 35px;
+    font-size: 26px;
     color: white;
     text-decoration: none;
     margin-left: 20px;
     margin-right: 20px;
 }
+.links:hover {
+    background-color: #555;
+}
+
+/* .toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+} */
+
