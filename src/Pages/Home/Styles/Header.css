@@ -44,3 +44,32 @@
     padding: 25px, 57px, 25px, 57px;
     font-family: Poppins;
 }
+
+@media only screen and (max-width: 576px) {
+    .bigimage {
+        height: 425px;
+        width: 459px;
+    }
+    
+    .smallImage {
+        width: 291px;
+        height: 425px;
+    }
+    .overlay {
+    width: 100%;
+    height: 40%;
+    margin-top: 105px;
+    font-size: 13px;
+    font-family: Poppins;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    .join-btn {
+        height: 44px;
+        width: 148px;
+    }
+}
