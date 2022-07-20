@@ -10,21 +10,21 @@ const Middle = () => {
             <div className='container'>
                 <img className='vector' src={person} alt="" />
                 <h3>SIGN UP</h3>
-                <p>Create New Account</p>
+                <p><small>Create New Account</small></p>
             </div>
             <div className='line'>
             </div>
             <div className='container'>
                 <img className='vector' src={compete} alt="" />
                 <h3>COMPETE</h3>
-                <p>Join Tournaments to compete with others</p>
+                <p><small>Join Tournaments to compete with others</small></p>
             </div>
             <div className='line'>
             </div>
             <div className='container'>
                 <img className='vector' src={trophy} alt="" />
                 <h3>WIN & EARN</h3>
-                <p>Win & Earn in the form of crypto</p>
+                <p><small>Win & Earn in the form of crypto</small></p>
             </div>
         </div>
     );

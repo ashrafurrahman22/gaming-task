@@ -23,6 +23,11 @@
   border: 1px solid blueviolet;
   border-radius: 100%;
 }
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .line {
     height: 1px;
