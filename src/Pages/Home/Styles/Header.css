@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container {
+    display: flex;
+
+}
+
+.bigimage {
+    height: 825px;
+    width: 949px;
+    background-image: url('../../../assets/ella-don-GVbd5btrqeA-unsplash\ 1.jpg');
+    background-size: cover;
+}
+
+.smallImage {
+    width: 491px;
+    height: 825px;
+    background-image: url('../../../assets/danny-howe-bn-D2bCvpik-unsplash\ 2.png');
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    margin-top: 210px;
+    font-size: 26px;
+    font-family: Poppins;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.join-btn {
+    height: 84px;
+    width: 338px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 25px, 57px, 25px, 57px;
+    font-family: Poppins;
+}
