@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Styles/Header.css';
 
 const Header = () => {
@@ -6,7 +7,18 @@ const Header = () => {
         <div>
         <div className='main-container'>
         <div className='bigimage'>
-            
+            <nav>
+                   <ul>
+                   <Link className='links' to='/'>Home</Link>
+                    <Link className='links' to='/'>Tournaments</Link>
+                    <Link className='links' to='/'>Compare Devices</Link>
+                    <Link className='links' to='/'>Shop</Link>
+                    <input className='searchOpt' type="text" placeholder='Search' />
+                    <Link className='links' to='/'>Login</Link>
+                    <Link className='links' to='/'>Sign Up</Link>
+                   </ul>
+                
+            </nav>
 
          {/* heading text  */}
          <div className='overlay'>

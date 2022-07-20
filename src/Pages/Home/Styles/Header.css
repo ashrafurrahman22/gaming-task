@@ -73,3 +73,27 @@
         width: 148px;
     }
 }
+
+nav {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.searchOpt {
+    font-size: 20px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.links {
+    font-family: Saira;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
