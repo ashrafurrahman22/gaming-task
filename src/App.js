@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Error from './Pages/ErrorPage/Error';
 import Home from './Pages/Home/Home';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <div> 
         <Routes>
             <Route path='/' element={<Home></Home>}></Route>
-            <Route path='*'></Route>
+            <Route path='*' element={<Error></Error>}  ></Route>
         </Routes>
     </div>
   );

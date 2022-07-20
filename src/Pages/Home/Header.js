@@ -8,15 +8,20 @@ const Header = () => {
         <div className='main-container'>
         <div className='bigimage'>
             <nav>
+                
+                
+
 
                    <ul>
-                        <Link className='links' to='/'>Home</Link>
+                    <li>
+                    <Link className='links' to='/'>Home</Link>
                     <Link className='links' to='/'>Tournaments</Link>
                     <Link className='links' to='/'>Compare Devices</Link>
                     <Link className='links' to='/'>Shop</Link>
                     <input className='searchOpt links' type="text" placeholder='Search' />
-                    <Link className='links' to='/'>Login</Link>
-                    <Link className='links' to='/'>Sign Up</Link>
+                    <Link id='login-style' className='links' to='/'>Login</Link>
+                    <Link id='signup-style' className='links' to='/'>Sign Up</Link>
+                    </li>
                        
                    </ul>
                 
