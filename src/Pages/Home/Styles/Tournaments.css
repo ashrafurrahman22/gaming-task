@@ -1,0 +1,21 @@
+.main-div {
+    background-color: #F5F5F5;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Poppins';
+}
+
+#search {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.header-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
