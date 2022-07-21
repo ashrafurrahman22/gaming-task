@@ -37,6 +37,10 @@ p {
     background-color: blueviolet;
 }
 
+#trophy {
+    color: white;
+}
+
 @media only screen and (max-width: 576px) {
     .main {
         display: flex;

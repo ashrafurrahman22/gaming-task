@@ -1,28 +1,27 @@
 import React from 'react';
-import person from '../../assets/person.png';
-import compete from '../../assets/compete.png';
-import trophy from '../../assets/trophy.png';
 import './Styles/Middle.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrophy, faUserPlus, faUsersGear } from '@fortawesome/free-solid-svg-icons';
 
 const Middle = () => {
     return (
         <div className='main'>
             <div className='container'>
-                <img className='vector' src={person} alt="" />
-                <h3>SIGN UP</h3>
+                <FontAwesomeIcon className='vector' id='trophy' icon={faUserPlus}/>
+                <h3>SIGN UP</h3> 
                 <p><small>Create New Account</small></p>
             </div>
             <div className='line'>
             </div>
             <div className='container'>
-                <img className='vector' src={compete} alt="" />
+                <FontAwesomeIcon className='vector' id='trophy' icon={faUsersGear}/>
                 <h3>COMPETE</h3>
                 <p><small>Join Tournaments to compete with others</small></p>
             </div>
             <div className='line'>
             </div>
             <div className='container'>
-                <img className='vector' src={trophy} alt="" />
+                <FontAwesomeIcon className='vector' id='trophy' icon={faTrophy} />
                 <h3>WIN & EARN</h3>
                 <p><small>Win & Earn in the form of crypto</small></p>
             </div>
