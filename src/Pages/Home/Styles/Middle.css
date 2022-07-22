@@ -24,9 +24,7 @@
   border-radius: 100%;
 }
 p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .line {
