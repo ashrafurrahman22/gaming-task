@@ -25,7 +25,8 @@ const Tournaments = () => {
 
             </div>
             <div>
-                <input id='search' type="text" placeholder='  search' />
+                <input id='search' type="text" placeholder='  search' /> 
+                
             </div>
             </div>
 
